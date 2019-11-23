@@ -1,0 +1,29 @@
+{
+    "body":{
+        "tableData": [{
+            "time": "20170502",
+            "transactionType": "1",
+            "bankType": "1",
+            "name": "张三1",
+            "money":"iPhone",
+            "accont":"111111111111111",
+            "state":"成功到账"
+          },{
+            "time": "20170503",
+            "transactionType": "2",
+            "bankType": "2",
+            "name": "张三2",
+            "money":"iPhone",
+            "accont":"2222222222222",
+            "state":"成功到账"
+          },{
+            "time": "20170504",
+            "transactionType": "3",
+            "bankType": "3",
+            "name": "张三3",
+            "money":"iPhone",
+            "accont":"3333333333333",
+            "state":"成功到账"
+          }]
+    }
+}

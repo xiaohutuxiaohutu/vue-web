@@ -1,0 +1,25 @@
+{
+	"body": {
+		    "lapFlowNo":"5454166",
+            "lapCstName":"xxxxx",
+            "lapOrgacode":"asd",
+            "lapBusAddress":"5qwe",
+            "lapTrade":"1",
+            "lapSaleYear":"656536",
+            "lapProfitYear":"50000",
+            "lapApplyBranch":"aaaaa",
+            "lapLoanAmount":"52451455",
+            "lapLoanDate":"20140202",
+            "lapLoanUsed":"5155ss",
+            "lapAssuseMeans":"65461",
+            "lapAuthStt":"0"
+	},
+	"header": {
+		"transGlobalFlow": "NMB01201706091755222412",
+		"serverTime": "175532000",
+		"errorCode": "0",
+		"errorMsg": "",
+		"transFlow": "NMB01201706091755222412INS293867",
+		"serverDate": "20170609"
+	}
+}

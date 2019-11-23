@@ -1,0 +1,13 @@
+{
+    "body":{
+    	"ORDERNO": "898521221212"
+    },
+    "header": {
+        "transGlobalFlow": "NMB01201704180210530851",
+        "serverTime": "203807000",
+        "errorCode": "0",
+        "errorMsg": "",
+        "transFlow": "NMB01201704180210530851INS856753",
+        "serverDate": "20170418"
+    }
+}

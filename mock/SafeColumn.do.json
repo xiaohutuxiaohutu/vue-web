@@ -1,0 +1,48 @@
+{
+    "body":{
+        "safeLevel": "high",
+        "tableData": [{
+            "time": "2017-05-02",
+            "name": "账号保护",
+            "description": "您的账号第7位到第11位的数字将用*号代替显示。",
+            "state":"false",
+            "operation":"启用保护",
+            "url":""
+          },{
+            "time": "2017-05-02",
+            "name": "私密问题",
+            "description": "私密问题用于保障个人安全认证密码找回时的信息安全",
+            "state":"true",
+            "operation":"更改设置",
+            "url":"/securitycenter@Private"
+          },{
+            "time": "2017-05-02",
+            "name": "预留信息",
+            "description": "预留信息将在您登陆网银时显示，以确保您进入的是正版的网银。",
+            "state":"true",
+            "operation":"设置",
+            "url":"/securitycenter@Reserved"
+          },{
+            "time": "2017-05-02",
+            "name": "暂停网银或手机银行",
+            "description": "暂停网银或手机银行是指您不需要使用网银或手机银行时，设置暂时或永久停止使用的安全手段。",
+            "state":"true",
+            "operation":"设置",
+            "url":"/securitycenter@Ebank"
+          },{
+            "time": "2017-05-02",
+            "name": "短信提醒设置",
+            "description": "短信通知用于加强电子账户及电子渠道风险防范能力，保障客户资金安全。",
+            "state":"false",
+            "operation":"设置",
+            "url":"/securitycenter@Msg"
+          },{
+            "time": "2017-05-02",
+            "name": "安全认证方式设置",
+            "description": "可通过本功能设置默认安全认证方式，在转账确认页面，会根据客户的设置默认显示相应的安全认证方式。",
+            "state":"true",
+            "operation":"更改设置",
+            "url":"/securitycenter@Change"
+          }]
+    }
+}

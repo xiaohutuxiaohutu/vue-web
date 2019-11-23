@@ -1,0 +1,59 @@
+{
+    "body":{
+        "tableData": [{
+            "time": "2017-05-02",
+            "transactionType": "2",
+            "bankType": "1",
+            "otherType":"支付宝",
+            "name": "张三1",
+            "money":"1341.00",
+            "balanceOfPayments":"2",
+            "state":"成功到账"
+          },{
+            "time": "2017-05-02",
+            "transactionType": "2",
+            "bankType": "1",
+            "otherType":"微信支付",
+            "name": "张三2",
+            "money":"255.00",
+            "balanceOfPayments":"1",
+            "state":"成功到账"
+          },{
+            "time": "2017-05-02",
+            "transactionType": "3",
+            "bankType": "1",
+            "otherType":"ATM",
+            "name": "张三3",
+            "money":"52555.00",
+            "balanceOfPayments":"1",
+            "state":"成功到账"
+          },{
+            "time": "2017-05-02",
+            "transactionType": "4",
+            "bankType": "1",
+            "name": "张三2",
+            "money":"5251.00",
+            "balanceOfPayments":"1",
+            "accont":"111111111111112",
+            "state":"成功到账"
+          },{
+            "time": "2017-05-02",
+            "transactionType": "5",
+            "bankType": "1",
+            "otherType":"ATM",
+            "name": "张三3",
+            "money":"758.00",
+            "balanceOfPayments":"2",
+            "state":"成功到账"
+          },{
+            "time": "2017-05-02",
+            "transactionType": "6",
+            "bankType": "1",
+            "name": "张三3",
+            "money":"56.00",
+            "balanceOfPayments":"2",
+            "accont":"111111111111113",
+            "state":"成功到账"
+          }]
+    }
+}

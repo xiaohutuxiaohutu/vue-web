@@ -1,0 +1,27 @@
+{
+    "body":{
+        "tableData": [{
+            "transDate":"2017-09-10",
+            "income":"15,461,221",
+            "pay":"15,461,221",
+            "receiveAccount":"8544854854185",
+            "receiveName":"小明",
+            "balance":"51,451,515"        
+           
+          },{
+             "transDate":"2017-09-10",
+            "income":"15,461,221",
+            "pay":"15,461,221",
+            "receiveAccount":"8544854854185",
+            "receiveName":"小明",
+            "balance":"51,451,515" 
+          },{
+            "transDate":"2017-09-10",
+            "income":"15,461,221",
+            "pay":"15,461,221",
+            "receiveAccount":"8544854854185",
+            "receiveName":"小明",
+            "balance":"51,451,515" 
+          }]
+    }
+}

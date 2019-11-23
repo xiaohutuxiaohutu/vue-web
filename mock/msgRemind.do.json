@@ -1,0 +1,22 @@
+{
+    "body": {
+        "flag": [
+            {
+                "accType": "1",
+                "sysFlag": "1"
+            },
+            {
+                "accType": "2",
+                "sysFlag": "0"
+            },
+            {
+                "accType": "3",
+                "sysFlag": "1"
+            }
+        ]
+    },
+    "header": {
+        "errorCode": "0",
+        "errorMsg": ""
+    }
+}

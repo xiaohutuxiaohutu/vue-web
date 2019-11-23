@@ -1,0 +1,33 @@
+{
+    "body":{
+        "tableData": [{
+            "serialNumber":"1",
+            "loanAccount":"25325645621",
+            "loanBalance":"56,235.41",
+            "releaseDate":"2017-05-12",
+            "expiringDate":"2018-05-12",
+            "currency":"人民币",
+            "moneyRate":"6.7%",
+            "loanStatus":"正常"      
+           
+          },{
+            "serialNumber":"2",
+            "loanAccount":"25325645621",
+            "loanBalance":"56,235.41",
+            "releaseDate":"2017-05-12",
+            "expiringDate":"2018-05-12",
+            "currency":"人民币",
+            "moneyRate":"6.7%",
+            "loanStatus":"结清" 
+          },{
+            "serialNumber":"3",
+            "loanAccount":"25325645621",
+            "loanBalance":"56,235.41",
+            "releaseDate":"2017-05-12",
+            "expiringDate":"2018-05-12",
+            "currency":"人民币",
+            "moneyRate":"6.7%",
+            "loanStatus":"正常" 
+          }]
+    }
+}

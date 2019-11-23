@@ -1,0 +1,7 @@
+{"body":{"acctList":
+[
+
+{"DEPNO":"80190030443701015","amount":"456","cdpsType":"00","accNo":"1234567898","currency":"人民币","interestRate":"8%","type":"11","cstNo":"01","right":"","valueDate":"2017-09-15 17:42","stt":"号"}
+],
+"errorCode":"0","errorMsg":""},
+"header":{"versionNo":"0.1"}}

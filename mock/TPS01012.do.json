@@ -1,0 +1,13 @@
+{
+	"body": {
+		"cardInfoList": [{}]
+	},
+	"header": {
+		"transGlobalFlow": "NMB01201706091754492406",
+		"serverTime": "175500000",
+		"errorCode": "0",
+		"errorMsg": "success",
+		"transFlow": "NMB01201706091754492406INS045979",
+		"serverDate": "20170609"
+	}
+}

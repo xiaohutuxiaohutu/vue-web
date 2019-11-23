@@ -1,0 +1,20 @@
+{
+    "body":{
+    	"ACCTNO": "6222022002008952637",
+    	"TOTALROWNUM": "2",
+        "yshClientInfoList":[
+            {"CONTENT":"豪车接送","CONTENTTAG":"X1003","ORDERNO":"9895232316546","USETIME":"20170608","USETAG":"0"},
+            {"CONTENT":"豪车接送","CONTENTTAG":"X1003","ORDERNO":"9895232314646","USETIME":"20170609","USETAG":"1"},
+            {"CONTENT":"境外上网","CONTENTTAG":"X1005","ORDERNO":"9895232311111","USETIME":"20170610","USETAG":"2"},
+            {"CONTENT":"体检","CONTENTTAG":"B0003","ORDERNO":"9895232316555","USETIME":"20170711","USETAG":"3"}
+        ]
+    },
+    "header": {
+        "transGlobalFlow": "NMB01201704180210530851",
+        "serverTime": "203807000",
+        "errorCode": "0",
+        "errorMsg": "",
+        "transFlow": "NMB01201704180210530851INS856753",
+        "serverDate": "20170418"
+    }
+}

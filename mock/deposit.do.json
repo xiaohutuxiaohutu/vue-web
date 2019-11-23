@@ -1,0 +1,37 @@
+{
+    "body":{
+      "totalMoney": "126,641,665",
+        "depositTableData": [{
+            "accountNum":"80010301010000018",
+            "accountName":"广州****有限公司",
+            "availableBal":"53,236,261",
+            "accountMoney":"64,646.46",
+            "depositPeriod":"一年",
+            "moneyRate":"1.6%",         
+            "accountCurrency":"人民币",
+            "dueDate":"2017-02-13",
+            "accountStatus":"正常"
+          
+          },{
+            "accountNum":"80010301010000019",
+            "accountName":"广州****有限公司",
+            "availableBal":"53,236,261",
+            "accountMoney":"64,646.46",
+            "depositPeriod":"一年",
+            "moneyRate":"1.6%",         
+            "accountCurrency":"人民币",
+            "dueDate":"2017-02-13",
+            "accountStatus":"正常"
+          },{
+           "accountNum":"80010301010000020",
+            "accountName":"广州****有限公司",
+            "availableBal":"53,236,261",
+            "accountMoney":"64,646.46",
+            "depositPeriod":"一年",
+            "moneyRate":"1.6%",         
+            "accountCurrency":"人民币",
+            "dueDate":"2017-02-13",
+            "accountStatus":"正常"
+          }]
+    }
+}

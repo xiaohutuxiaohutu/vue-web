@@ -1,0 +1,17 @@
+{
+    "body":{
+    	"TOTALROWNUM": "2",
+        "ROW":[
+            {"CITYCODE":"01001","CITYNAME":"广州市","SERVICELIST":""},
+            {"CITYCODE":"01002","CITYNAME":"深圳市","SERVICELIST":""}
+        ]
+    },
+    "header": {
+        "transGlobalFlow": "NMB01201704180210530851",
+        "serverTime": "203807000",
+        "errorCode": "0",
+        "errorMsg": "",
+        "transFlow": "NMB01201704180210530851INS856753",
+        "serverDate": "20170418"
+    }
+}

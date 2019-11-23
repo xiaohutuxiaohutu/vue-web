@@ -1,0 +1,13 @@
+{
+	"body": {
+		"lapFlowNo":"3161616531"
+	},
+	"header": {
+		"transGlobalFlow": "NMB01201706091755222412",
+		"serverTime": "175532000",
+		"errorCode": "0",
+		"errorMsg": "",
+		"transFlow": "NMB01201706091755222412INS293867",
+		"serverDate": "20170609"
+	}
+}

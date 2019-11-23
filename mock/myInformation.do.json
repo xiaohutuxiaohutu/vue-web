@@ -1,0 +1,17 @@
+{
+			"body":{
+				    "alias":"李",
+					  "mPhone": "1267890456",
+				      "mName": "周",
+				      "mCode": "123456",
+				    "lastLogonTime": "2017080908",
+						"userSex":"M"
+					},
+				  "header":{
+					  "id": 1,
+				    "errorCode": "0",
+				    "errorMsg": "success",
+				    "nickName": "张某某"
+					}	
+			
+}

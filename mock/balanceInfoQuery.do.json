@@ -1,0 +1,46 @@
+{
+    "body":{
+        "totalMoney": "156,641,665",
+        "currentTableData": [{
+            "accountNum":"80010301010000018",
+            "accountName":"广州****有限公司",
+            "accountAlias":"账户别名一",
+            "accountMoney":"4,664,646.46",
+            "accountBranch":"深圳分行",
+            "accountCurrency":"人民币",         
+            "accountStatus":"正常",
+            "accountType":"活期账户",
+            "accountAttr":"账户性质1",
+            "accountBal":"12,324,551",
+            "freezeBal":"15,242",
+            "openAccoDate":"2017-02-13"
+          
+          },{
+            "accountNum":"80010301010000019",
+            "accountName":"广州****有限公司",
+            "accountAlias":"账户别名二",
+            "accountMoney":"4,664,646.46",
+            "accountBranch":"深圳分行",
+            "accountCurrency":"人民币",          
+            "accountStatus":"正常",
+            "accountType":"活期账户",
+            "accountAttr":"账户性质1",
+            "accountBal":"12,324,551",
+            "freezeBal":"15,242",
+            "openAccoDate":"2017-02-14"
+          },{
+           "accountNum":"80010301010000020",
+            "accountName":"广州****有限公司",
+            "accountAlias":"账户别名三",
+            "accountMoney":"4,664,646.46",
+            "accountBranch":"深圳分行",
+            "accountCurrency":"人民币",           
+            "accountStatus":"正常",
+            "accountType":"活期账户",
+            "accountAttr":"账户性质1",
+            "accountBal":"12,324,551",
+            "freezeBal":"15,242",
+            "openAccoDate":"2017-02-17"
+          }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"body": {
+		"cityList": [{
+			"cityCode": "广州1",
+			"cityName": "广州1"
+		},
+		{
+			"cityCode": "广州2",
+			"cityName": "广州2"
+		},
+		{
+			"cityCode": "广州3",
+			"cityName": "广州3"
+		},
+		{
+			"cityCode": "广州4",
+			"cityName": "广州4"
+		}]
+	},
+	"header": {
+		"transGlobalFlow": "NMB01201706091755222412",
+		"serverTime": "175532000",
+		"errorCode": "0",
+		"errorMsg": "",
+		"transFlow": "NMB01201706091755222412INS293867",
+		"serverDate": "20170609"
+	}
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bl commonFlag="false">
+    <dict>
+        <field referId="accountNo"/>
+        <field referId="transAmount"/>
+    </dict>
+    <input/>
+    <output/>
+    <flow>
+        <action id="dubboFlowAction0" type="dubboFlowAction" x="424" y="227" w="85" h="40">
+            <conf>
+                <property name="logicId" value="UIF00002"/>
+                <property name="errorCodeField" value=""/>
+                <property name="errorMsgField" value=""/>
+            </conf>
+            <transition name="dubboFlowAction0.transition0" value="endAction0"/>
+        </action>
+        <action id="dubboFlowAction1" type="dubboFlowAction" x="313" y="137" w="85" h="40">
+            <conf>
+                <property name="actionDesc" value="付款账号的机构链"/>
+                <property name="logicId" value=""/>
+                <property name="errorCodeField" value=""/>
+                <property name="errorMsgField" value=""/>
+            </conf>
+            <transition name="dubboFlowAction1.transition0" value="dubboFlowAction0"/>
+        </action>
+        <action id="endAction0" type="endAction" x="312" y="300" w="85" h="40">
+            <conf>
+                <property name="value" value="0"/>
+            </conf>
+        </action>
+        <action id="startAction0" type="startAction" x="307" y="43" w="85" h="40">
+            <transition name="startAction0.transition2" value="dubboFlowAction1"/>
+        </action>
+    </flow>
+</bl>

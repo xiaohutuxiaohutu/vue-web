@@ -1,0 +1,15 @@
+{
+	"body":{
+		"SUBSACLIST":[{
+			"AVAIBL":"8888.88"
+		}]
+	},
+	"header":{
+		"transGlobalFlow":"NMB01201706091434261978",
+		"errorCode":"0",
+		"serverTime":"143436000",
+		"errorMsg":"",
+		"transFlow":"NMB01201706091434261978TPS125710",
+		"serverDate":"20170609"
+	}
+}

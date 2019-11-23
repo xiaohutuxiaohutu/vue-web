@@ -1,0 +1,17 @@
+{
+    "body":{
+    	"TOTALROWNUM": "2",
+        "ROW":[
+            {"BAIRCODE":"A0001","AIRNAME":"广州机场","CITYNAME":"广州"},
+            {"BAIRCODE":"A0002","AIRNAME":"深圳机场","CITYNAME":"深圳"}
+        ]
+    },
+    "header": {
+        "transGlobalFlow": "NMB01201704180210530851",
+        "serverTime": "203807000",
+        "errorCode": "0",
+        "errorMsg": "",
+        "transFlow": "NMB01201704180210530851INS856753",
+        "serverDate": "20170418"
+    }
+}

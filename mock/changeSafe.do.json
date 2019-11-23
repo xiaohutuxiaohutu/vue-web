@@ -1,0 +1,18 @@
+{
+    "body": {
+        "safeType": [
+            {
+                "securityType": "1",
+                "label": "华兴U盾11"
+            },
+            {
+                "securityType": "2",
+                "label": "手机短信密码"
+            }
+        ]
+    },
+    "header": {
+        "errorCode": "0",
+        "errorMsg": ""
+    }
+}

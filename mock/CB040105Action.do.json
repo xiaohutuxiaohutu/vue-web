@@ -1,0 +1,12 @@
+{
+    "body":{
+        "subAcctNoList":[
+            {"acctNickName":"","acctNo":"11001111103","acctName":"测试定期存款账号3"},
+            {"acctNickName":"","acctNo":"001900303735002","acctName":"测试活期存款账号4"},
+            {"acctNickName":"","acctNo":"001900303735001","acctName":"测试定期存款账号2"}
+        ],
+        "errorCode":"0",
+        "errorMsg":""
+    },
+    "header":{}
+}

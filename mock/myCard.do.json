@@ -1,0 +1,24 @@
+{
+    "body":{
+        "myCardList":[
+            {
+                 "recAccBank" :"中国招商银行",
+                    "recAccNo":"1111111114440089"
+            },
+            {
+                 "recAccBank" :"中国工商银行",
+                    "recAccNo":"133415611****0079"
+            },
+            {
+                 "recAccBank" :"中国农业银行",
+                    "recAccNo":"215125611****0069"
+            },
+            {
+                 "recAccBank" :"广东华兴银行",
+                    "recAccNo":"215125611****0069"
+            }
+            
+        ]
+    }
+}
+

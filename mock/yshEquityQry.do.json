@@ -1,0 +1,32 @@
+{
+    "body":{
+    	"ACCTNO": "6222022002008952636",
+    	"LTACCTNO": "6222022002008952637",
+    	"TOTALROWNUM": "1",
+    	"CARDCLASS": "0",
+    	"CARDTAG": "0",
+    	"DJCARD": "",
+    	"ENDTIME": "20180608",
+        "ROW":[
+            {"CONTENT":"机场/高铁贵宾室服务","CONTENTTAG":"01","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"机场/高铁豪车接送","CONTENTTAG":"02","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"境外随身wifi","CONTENTTAG":"03","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"全球失卡保障","CONTENTTAG":"04","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"健康体检服务","CONTENTTAG":"05","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"卡号定制","CONTENTTAG":"06","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"高级别积分礼遇","CONTENTTAG":"07","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"一对一理财经理","CONTENTTAG":"08","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"映山红贵宾室/窗口","CONTENTTAG":"09","IMES":"X","IMESUSED":"0","SUCCNUM":"0"},
+            {"CONTENT":"预定管理","CONTENTTAG":"10","IMES":"X","IMESUSED":"0","SUCCNUM":"0"}
+        ]
+    },
+    "header": {
+        "transGlobalFlow": "NMB01201704180210530851",
+        "serverTime": "203807000",
+        "errorCode": "0",
+        "errorMsg": "",
+        "transFlow": "NMB01201704180210530851INS856753",
+        "serverDate": "20170418"
+    }
+}
+

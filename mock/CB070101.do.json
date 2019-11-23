@@ -1,0 +1,31 @@
+{
+    "body":{
+        "atqList":[
+            {
+               "bsnName":"一站式转账",
+               "total":20,
+               "bsnCode":"ATS11003"
+           },{
+               "bsnName":"批量转帐转账",
+               "total":20,
+               "bsnCode":"ATS11003"
+           },{
+               "bsnName":"保证金存入",
+               "total":20,
+               "bsnCode":"ATS11003"
+           },{
+               "bsnName":"结汇",
+               "total":20,
+               "bsnCode":"ATS11003"
+           },{
+               "bsnName":"购汇",
+               "total":20,
+               "bsnCode":"ATS11003"
+           },{
+               "bsnName":"套汇",
+               "total":20,
+               "bsnCode":"ATS11003"
+           }
+        ]
+    }
+}

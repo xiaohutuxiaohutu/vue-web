@@ -1,0 +1,21 @@
+{
+    "body":{
+        "errorCode":"0",
+        "errorMsg":"",
+        "txnDetailList":[
+            {"tranTime":"","acctDate":"20150204","tranDate":"20150204","tranAmount":"0.00","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"C","payeeAcctNo":"","purpose":"","tranType":"5010","comments":"转帐"},
+            {"tranTime":"","acctDate":"20150204","tranDate":"20150204","tranAmount":"0.00","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"D","payeeAcctNo":"","purpose":"","tranType":"1003","comments":"现金"},
+            {"tranTime":"","acctDate":"20150204","tranDate":"20150204","tranAmount":"6920.00","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"C","payeeAcctNo":"","purpose":"","tranType":"5010","comments":"转帐"},
+            {"tranTime":"","acctDate":"20150204","tranDate":"20150204","tranAmount":"7000.00","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"D","payeeAcctNo":"","purpose":"","tranType":"1003","comments":"现金"},
+            {"tranTime":"","acctDate":"20150630","tranDate":"20150630","tranAmount":"0.40","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"C","payeeAcctNo":"","purpose":"","tranType":"1000","comments":"存息"},
+            {"tranTime":"","acctDate":"20151231","tranDate":"20151231","tranAmount":"0.32","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"C","payeeAcctNo":"","purpose":"","tranType":"5010","comments":"付息"},
+            {"tranTime":"","acctDate":"20160122","tranDate":"20160122","tranAmount":"6500.00","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"C","payeeAcctNo":"","purpose":"","tranType":"5010","comments":"****"},
+            {"tranTime":"","acctDate":"20160122","tranDate":"20160122","tranAmount":"6500.00","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"D","payeeAcctNo":"","purpose":"","tranType":"1003","comments":"取现"},
+            {"tranTime":"","acctDate":"20160122","tranDate":"20160122","tranAmount":"6920.00","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"C","payeeAcctNo":"","purpose":"","tranType":"5010","comments":"国结通用记账"},
+            {"tranTime":"","acctDate":"20160122","tranDate":"20160122","tranAmount":"6500.00","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"D","payeeAcctNo":"","purpose":"","tranType":"5007","comments":"****"},
+            {"tranTime":"","acctDate":"20160630","tranDate":"20160630","tranAmount":"0.35","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"C","payeeAcctNo":"","purpose":"","tranType":"5010","comments":"付息"},
+            {"tranTime":"","acctDate":"20161231","tranDate":"20161231","tranAmount":"0.36","acctBal":"","acctNo":"9020013531","payeeAcctName":"","debitCreditFlag":"C","payeeAcctNo":"","purpose":"","tranType":"5010","comments":"付息"}
+        ]
+    },
+    "header":{}
+}

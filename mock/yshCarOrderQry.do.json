@@ -1,0 +1,35 @@
+{
+    "body":{
+    	"ACCTNO": "6222022002008952637",
+    	"CARDNO": "",
+    	"CITY": "广州",
+    	"TYPE": "2",
+    	"CARTYPE": "2",
+    	"CARCLASS": "宝马",
+    	"AIRPORT": "广州机场",
+    	"USENAME": "阿萨德",
+    	"USEPHONE": "13822138020",
+    	"USETIME": "201406121505",
+    	"STARTADDR": "石牌桥",
+    	"ENDADDR": "岗顶",
+    	"CONTNAME": "阿萨德",
+    	"CONTPHONE": "13822138020",
+    	"SERVICENUM": "1",
+    	"CERVICECAR": "1",
+    	"POSITION1": "000000",
+    	"POSITION2": "000000",
+    	"FLIGHTNUM": "000000",
+    	"FLIGHTCLASS": "000000",
+    	"AIRCODE": "000000",
+    	"TICKETNO": "000000",
+    	"REMARK": "000000"
+    },
+    "header": {
+        "transGlobalFlow": "NMB01201704180210530851",
+        "serverTime": "203807000",
+        "errorCode": "0",
+        "errorMsg": "",
+        "transFlow": "NMB01201704180210530851INS856753",
+        "serverDate": "20170418"
+    }
+}

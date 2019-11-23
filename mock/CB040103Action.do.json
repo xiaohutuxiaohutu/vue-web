@@ -1,0 +1,37 @@
+{
+    "body":{
+        "subActiveAcctListCB":[
+            {"acctGroup":"","acctState":"0","acctNo":"001900303735001","acctName":"测试定期存款账号2","currency":"CNY"},
+            {"acctGroup":"","acctState":"0","acctNo":"001900303735002","acctName":"测试活期存款账号4","currency":"CNY"},
+            {"acctGroup":"","acctState":"1","acctNo":"11001111103","acctName":"测试定期存款账号3","currency":"CNY"}
+        ],
+        "accNoInfoList":[
+            {"depTermType":"","accTypeDesc":"个人活期存款（外币）","openAccDate":"20080410","depositType":"C","accTP":"102","accState":"D","expDate":"","depTerm":"","freezeBal":"0.00","openAccOrg":"018888","stmtBal":"200.56","moneyTp":"HKD","pnpAMT":"","accNo":"001900303735002","accName":"萧植水","accAttr":"100","noticeDepFlag":"","avlBal":"0.00","accRate":""},
+            {"depTermType":"","accTypeDesc":"个人活期存款（外币）","openAccDate":"20080410","depositType":"C","accTP":"102","accState":"D","expDate":"","depTerm":"","freezeBal":"0.00","openAccOrg":"018888","stmtBal":"200.56","moneyTp":"HKD","pnpAMT":"","accNo":"11001111103","accName":"萧植水","accAttr":"100","noticeDepFlag":"","avlBal":"0.00","accRate":""},
+            {
+                "depTermType":"",
+                "accTypeDesc":"个人活期存款（本币）",
+                "openAccDate":"20080410",
+                "depositType":"C",
+                "accTP":"101",
+                "accState":"D",
+                "expDate":"",
+                "depTerm":"",
+                "freezeBal":"0.00",
+                "openAccOrg":"018888",
+                "stmtBal":"599.53",
+                "moneyTp":"CNY",
+                "pnpAMT":"",
+                "accNo":"001900303735001",
+                "accName":"萧植水",
+                "accAttr":"2",
+                "noticeDepFlag":"",
+                "avlBal":"0.00",
+                "accRate":""
+            }
+        ],
+        "errorCode":"0",
+        "errorMsg":""
+    },
+    "header":{}
+}

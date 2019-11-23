@@ -1,0 +1,9 @@
+{
+    "body": {
+        "projectMessage":"这是一条预留信息。"
+    },
+    "header": {
+        "errorCode": "0",
+        "errorMsg": ""
+    }
+}

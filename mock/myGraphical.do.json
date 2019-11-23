@@ -1,0 +1,15 @@
+{
+    "body":{
+        "myGraphicalList":[
+            {
+                 "currentSum" :"100000",
+                    "terminalSum":"200000",
+                    "callSum":"300000",
+                    "otherSum":"400000",
+                    "totalSum":"500000"
+            }
+            
+        ]
+    }
+}
+

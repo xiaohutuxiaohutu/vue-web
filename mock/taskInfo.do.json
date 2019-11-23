@@ -1,0 +1,700 @@
+{
+    "body": {
+	        "menu": [
+	            {
+	                "id": "010000",
+	                "name": "我的",
+	                "type": "1",
+	                "url": "/my/myMain",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": ""
+	            },
+				{
+	                "id": "010000",
+	                "name": "帐户查询",
+	                "type": "1",
+	                "url": "/accmanager/accquery/balancequeryMain",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": "",
+	                "iTaskInfo": {
+	                    "menu": [
+	                        {
+	                            "id": "010100",
+	                            "name": "帐户余额查询",
+	                            "type": "1",
+	                            "url": "/accmanager/accquery/balancequeryMain",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+							{
+								"id": "010102",
+								"name": "帐户明细查询",
+								"type": "1",
+								"url": "/accmanager/accquery/accdetail",
+								"isOpen": "1",
+								"isShow": "1",
+								"warnMsg": "",
+								"remark": ""	
+							},
+							{
+								"id": "010103",
+								"name": "贷款信息查询",
+								"type": "1",
+								"url": "/accmanager/accquery/loanquery",
+								"isOpen": "1",
+								"isShow": "1",
+								"warnMsg": "",
+								"remark": ""
+							},
+							{
+								"id": "010104",
+								"name": "电子回单查询",
+								"type": "1",
+								"url": "/accmanager/accquery/receipt",
+								"isOpen": "1",
+								"isShow": "1",
+								"warnMsg": "",
+								"remark": ""
+							},
+							{
+								"id": "010201",
+	                            "name": "银企对账",
+	                            "type": "1",
+	                            "url": "/accmanager/acccheck/bankAndCorpCheckMain",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+							}
+	                    ]
+	                }
+	            },
+	            {
+	                "id": "030000",
+	                "name": "转账汇款",
+	                "type": "1",
+	                "url": "/loanMain",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": "",
+	                "iTaskInfo": {
+	                    "menu": [
+	                        {
+	                            "id": "030100",
+	                            "name": "贷款预申请",
+	                            "type": "1",
+	                            "url": "/loanMain",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": "",
+	                            "iTaskInfo": {
+	                                "menu": [
+	                                    {
+	                                        "id": "b030101",
+	                                        "name": "预申请",
+	                                        "type": "1",
+	                                        "url": "/loanPriorApplyDi",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b030102",
+	                                        "name": "贷款合同查询",
+	                                        "type": "1",
+	                                        "url": "/loanMain",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b030103",
+	                                        "name": "预申请查询",
+	                                        "type": "1",
+	                                        "url": "/loanPriorApplyQuery",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    }
+	                                ]
+	                            }
+	                        },
+	                        {
+	                            "id": "030200",
+	                            "name": "随借随还",
+	                            "type": "1",
+	                            "url": "/loanAlsoMain",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": "",
+	                            "iTaskInfo": {
+	                                "menu": [
+	                                    {
+	                                        "id": "b030201",
+	                                        "name": "明细查询",
+	                                        "type": "1",
+	                                        "url": "/loanAlsoMain",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b030202",
+	                                        "name": "自助提款",
+	                                        "type": "1",
+	                                        "url": "",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b030203",
+	                                        "name": "自助还款",
+	                                        "type": "1",
+	                                        "url": "",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b030204",
+	                                        "name": "退款处理",
+	                                        "type": "1",
+	                                        "url": "",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    }
+	                                ]
+	                            }
+	                        }
+	                    ]
+	                }
+	            },
+	            {
+	                "id": "040000",
+	                "name": "存款管理",
+	                "type": "1",
+	                "url": "/investment/termdeposit/termDepositQuery",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": "",
+	                "iTaskInfo": {
+	                    "menu": [
+	                        {
+	                            "id": "030100",
+	                            "name": "定期存款",
+	                            "type": "1",
+	                            "url": "/investment/termdeposit/termDepositQuery",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": "",
+	                            "iTaskInfo": {
+	                                "menu": [
+	                                    {
+	                                        "id": "030101",
+	                                        "name": "定期存款查询",
+	                                        "type": "1",
+	                                        "url": "/investment/termdeposit/termDepositQuery",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "030102",
+	                                        "name": "定期存款存入",
+	                                        "type": "1",
+	                                        "url": "/investment/termdeposit/termDepositIn",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "030103",
+	                                        "name": "定期存款支取",
+	                                        "type": "1",
+	                                        "url": "/investment/termdeposit/termWithdrawList",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },{
+	                                        "id": "030104",
+	                                        "name": "到期约转方式更改",
+	                                        "type": "1",
+	                                        "url": "/investment/termdeposit/termModeChangeList",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    }
+	                                ]
+	                            }
+	                        },
+	                        {
+	                            "id": "030200",
+	                            "name": "通知存款",
+	                            "type": "1",
+	                            "url": "/investment/calldeposit/callpositquery",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": "",
+	                            "iTaskInfo": {
+	                                "menu": [
+	                                    {
+	                                        "id": "030201",
+	                                        "name": "通知存款查询",
+	                                        "type": "1",
+	                                        "url": "/investment/calldeposit/callpositquery",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "030202",
+	                                        "name": "通知存款存入",
+	                                        "type": "1",
+	                                        "url": "/investment/calldeposit/callposit",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "030203",
+	                                        "name": "通知存款支取",
+	                                        "type": "1",
+	                                        "url": "/investment/calldeposit/calldepositdraw",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "030204",
+	                                        "name": "预约支取/预约取消",
+	                                        "type": "1",
+	                                        "url": "/investment/calldeposit/ordercallposit",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    }
+	                                ]
+	                            }
+	                        }
+	                    ]
+	                }
+	            },
+	            {
+	                "id": "050000",
+	                "name": "集团服务",
+	                "type": "1",
+	                "url": "/group/gquery/grelationquery",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": "",
+	                "iTaskInfo": {
+	                    "menu": [
+	                        {
+	                            "id": "050100",
+	                            "name": "集团查询服务",
+	                            "type": "1",
+	                            "url": "/group/gquery/grelationquery",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": "",
+								"iTaskInfo": {
+	                                "menu": [
+	                                    {
+	                                        "id": "050101",
+	                                        "name": "集团关系信息查询",
+	                                        "type": "1",
+	                                        "url": "/group/gquery/grelationquery",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "050102",
+	                                        "name": "子公司账户查询",
+	                                        "type": "1",
+	                                        "url": "/group/gquery/childcompanyquery",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },{
+	                                        "id": "050103",
+	                                        "name": "子公司账户明细查询",
+	                                        "type": "1",
+	                                        "url": "/group/gquery/chilcompanydetailquery",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "050104",
+	                                        "name": "账号分组",
+	                                        "type": "1",
+	                                        "url": "/group/gquery/accgroup",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    }
+	                                ]
+	                            }
+	                        },
+	                        {
+	                            "id": "050200",
+	                            "name": "集团支付结算",
+	                            "type": "1",
+	                            "url": "/group/gtranpay/fundup",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": "",
+								"iTaskInfo": {
+	                                "menu": [
+	                                    {
+	                                        "id": "050201",
+	                                        "name": "资金上划",
+	                                        "type": "1",
+	                                        "url": "/group/gtranpay/fundup",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "050202",
+	                                        "name": "资金下拨",
+	                                        "type": "1",
+	                                        "url": "/group/gtranpay/funddown",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },{
+	                                        "id": "050203",
+	                                        "name": "内部调拨",
+	                                        "type": "1",
+	                                        "url": "/group/gtranpay/interiorallot",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "050204",
+	                                        "name": "以子公司名义转账",
+	                                        "type": "1",
+	                                        "url": "/group/gtranpay/childcompanytrans",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    }
+	                                ]
+	                            }
+	                        },
+	                        {
+	                            "id": "050300",
+	                            "name": "集团资金归集",
+	                            "type": "1",
+	                            "url": "/group/gautotrans/gantotransMain",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": "",
+								"iTaskInfo": {
+	                                "menu": [
+										{
+											"id": "050301",
+	                            			"name": "资金归集管理",
+	                            			"type": "1",
+	                            			"url": "/group/gautotrans/gantotransMain",
+	                            			"isOpen": "1",
+	                            			"isShow": "1",
+	                           				"warnMsg": "",
+	                            			"remark": ""
+										}
+									]
+								}
+	                        }
+	                    ]
+	                }
+	            },
+	            {
+	                "id": "060000",
+	                "name": "国际业务",
+	                "type": "1",
+	                "url": "/internationalBusiness/importCreditMain",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": "",
+	                "iTaskInfo": {
+	                    "menu": [
+	                        {
+	                            "id": "060100",
+	                            "name": "进口信用证",
+	                            "type": "1",
+	                            "url": "/internationalBusiness/importCreditMain",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+	                        {
+	                            "id": "060200",
+	                            "name": "资产证明",
+	                            "type": "1",
+	                            "url": "/assets_certificate",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+	                        {
+	                            "id": "060300",
+	                            "name": "工资单",
+	                            "type": "1",
+	                            "url": "/other/salary",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+	                        {
+	                            "id": "060400",
+	                            "name": "开卡激活",
+	                            "type": "1",
+	                            "url": "/other/activeCard1",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+	                        {
+	                            "id": "060500",
+	                            "name": "个人资料",
+	                            "type": "1",
+	                            "url": "/other/personal",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+	                        {
+	                            "id": "060600",
+	                            "name": "公告",
+	                            "type": "1",
+	                            "url": "/notice",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+	                        {
+	                            "id": "060700",
+	                            "name": "安全中心",
+	                            "type": "1",
+	                            "url": "/securitycenter",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": "",
+	                            "iTaskInfo": {
+	                                "menu": [
+	                                    {
+	                                        "id": "b060701",
+	                                        "name": "安全设置",
+	                                        "type": "1",
+	                                        "url": "/securitycenter",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b060702",
+	                                        "name": "密码管理",
+	                                        "type": "1",
+	                                        "url": "/securitycenter/passwordManage",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b060703",
+	                                        "name": "账户限额",
+	                                        "type": "1",
+	                                        "url": "/securitycenter/limitation",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b060704",
+	                                        "name": "安全认证方式限额",
+	                                        "type": "1",
+	                                        "url": "/securitycenter/safeLimitation",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b060705",
+	                                        "name": "小额免密免签设置",
+	                                        "type": "1",
+	                                        "url": "/securitycenter/visaFree",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b060706",
+	                                        "name": "设备绑定设置",
+	                                        "type": "1",
+	                                        "url": "/securitycenter/equipmentBinding",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    },
+	                                    {
+	                                        "id": "b060707",
+	                                        "name": "华兴U盾管理",
+	                                        "type": "1",
+	                                        "url": "/securitycenter/Ushield",
+	                                        "isOpen": "1",
+	                                        "isShow": "1",
+	                                        "warnMsg": "",
+	                                        "remark": ""
+	                                    }
+	                                ]
+	                            }
+	                        }
+	                    ]
+	                }
+	            },
+				{
+	                "id": "070000",
+	                "name": "票据业务",
+	                "type": "1",
+	                "url": "/menu07",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": ""
+	            },
+				{
+	                "id": "080000",
+	                "name": "融资业务",
+	                "type": "1",
+	                "url": "/menu08",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": ""
+	            },
+				{
+	                "id": "090000",
+	                "name": "交易授权",
+	                "type": "1",
+	                "url": "/menu09",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": ""
+	            },
+				{
+	                "id": "100000",
+	                "name": "客服服务",
+	                "type": "1",
+	                "url": "/test/templateMain",
+	                "isOpen": "1",
+	                "isShow": "1",
+	                "warnMsg": "",
+	                "remark": "",
+	                "iTaskInfo": {
+	                    "menu": [
+	                        {
+	                            "id": "100100",
+	                            "name": "转账模版",
+	                            "type": "1",
+	                            "url": "/test/templateMain",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+							{
+	                            "id": "100200",
+	                            "name": "查询模版",
+	                            "type": "1",
+	                            "url": "/test/templateMain1",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+							{
+	                            "id": "100300",
+	                            "name": "table模版",
+	                            "type": "1",
+	                            "url": "/test/templateMain2",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        },
+							{
+	                            "id": "100300",
+	                            "name": "公共方法调用",
+	                            "type": "1",
+	                            "url": "/test/templateMain3",
+	                            "isOpen": "1",
+	                            "isShow": "1",
+	                            "warnMsg": "",
+	                            "remark": ""
+	                        }
+	                    ]
+	                }
+	            }
+	        ]
+	    }
+}
+

@@ -1,0 +1,19 @@
+{
+    "header":{},
+    "body":{
+        "cstNo":"01",
+        "groupNo":"21321",
+        "cnName":"越秀集团",
+        "enName":"yuexiu",
+        "state":"40",
+        "level":"0",
+        "createTime":"",
+        "certType":"0",
+        "certNo":"123456789012345678",
+        "relInfoList":[
+            {"bankCstNo":"","cstNo":"10001","level":"","groupRel":"","cnName":"大兴","certType":"0","certNo":"123456789012345678"}
+        ],
+        "errorCode":"0",
+        "errorMsg":""
+    }
+}

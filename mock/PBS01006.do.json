@@ -1,0 +1,15 @@
+{
+			"body":{
+					  "id": 1,
+				  "NAMECN": "admin",
+				    "ecifNo": "123456",
+				    "nickName": "张某某"
+					},
+				"header":{
+					  "id": 1,
+				    "errorCode": "0",
+				    "errorMsg": "success",
+				    "nickName": "张某某"
+					}	
+			
+}

@@ -1,0 +1,15 @@
+{
+    "body":{
+        "errorCode":"",
+        "errorMsg":"",
+        "acctList":[
+            {"acctNum":"21382483297","acctName":"名字1","acctGroup":"G1","currency":"人民币","balance":"10,000.00","state":"0"},
+            {"acctNum":"21387483297","acctName":"名字2","acctGroup":"G2","currency":"人民币","balance":"10,300.02","state":"1"},
+            {"acctNum":"21382283237","acctName":"名字3","acctGroup":"G3","currency":"人民币","balance":"10,030.00","state":"1"},
+            {"acctNum":"21382483297","acctName":"名字4","acctGroup":"G4","currency":"人民币","balance":"10,050.00","state":"1"},
+            {"acctNum":"21382483257","acctName":"名字5","acctGroup":"G5","currency":"人民币","balance":"10,060.00","state":"1"},
+            {"acctNum":"21382443297","acctName":"名字6","acctGroup":"G6","currency":"人民币","balance":"100,070.00","state":"1"}
+        ]
+    },
+    "header":{}
+}

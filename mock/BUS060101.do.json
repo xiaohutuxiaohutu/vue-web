@@ -1,0 +1,20 @@
+{
+	"body": {
+		"cstName":"越秀集团",
+        "cstCode":"0123546",
+        "busAddress":"广州",
+        "trade":"1",
+        "logalName":"xxx",
+        "logalCertType":"1",
+        "logalCertNo":"35135153153",
+        "applyBranch":"1"
+	},
+	"header": {
+		"transGlobalFlow": "NMB01201706091755222412",
+		"serverTime": "175532000",
+		"errorCode": "0",
+		"errorMsg": "",
+		"transFlow": "NMB01201706091755222412INS293867",
+		"serverDate": "20170609"
+	}
+}

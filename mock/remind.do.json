@@ -1,0 +1,39 @@
+{"body":{
+    "authLis":[
+    {"bsnName":"一站式转账",
+     "authSum":"2",
+    "authAllowSum":"5",
+    "authRefuseSum":"6"
+    },
+    {"bsnName":"批量转账",
+     "authSum":"2",
+    "authAllowSum":"5",
+    "authRefuseSum":"6"
+    },
+    {"bsnName":"定期存款",
+     "authSum":"2",
+    "authAllowSum":"5",
+    "authRefuseSum":"6"
+    },
+    {"bsnName":"通知存款",
+     "authSum":"2",
+    "authAllowSum":"5",
+    "authRefuseSum":"6"
+    },
+    {"bsnName":"结构汇业务",
+     "authSum":"2",
+    "authAllowSum":"5",
+    "authRefuseSum":"6"
+    },
+    {
+     "bsnName":"进口信用证",
+     "authSum":"2",
+    "authAllowSum":"3",
+    "authRefuseSum":"4"
+    }
+    ],
+    "code":200,
+    "msg":"请求成功"
+	}
+
+}

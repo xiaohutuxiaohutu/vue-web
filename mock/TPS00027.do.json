@@ -1,0 +1,20 @@
+//查询非柜面限额
+{
+	"body": {
+		"dayLimit": "50000000.00",
+		"currentYearLimit": "3485.9",
+		"currentTxnTimesLimit": "2",
+		"txnTimesLimit": "999999",
+		"ecifAgreementId": "B10002396710250766",
+		"yearLimit": "5000000000000.00",
+		"currentDayLimit": "20"
+	},
+	"header": {
+		"transGlobalFlow": "NMB01201706091756592468",
+		"serverTime": "175709000",
+		"errorCode": "0",
+		"errorMsg": "success",
+		"transFlow": "NMB01201706091756592468INS269409",
+		"serverDate": "20170609"
+	}
+}

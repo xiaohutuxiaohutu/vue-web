@@ -1,0 +1,45 @@
+{
+	"body": {
+		"routes": [{
+			"TIME": "0",
+			"pathDescription": "网银互联",
+			"routeDescription": "网银互联实时",
+			"CHARGECOST": "0",
+			"pathId": "IBPS",
+			"sortType": "",
+			"CHARGE": "0",
+			"routeId": "IBPS_RT",
+			"routeTrialId": "RT20170609003880063"
+		},
+		{
+			"TIME": "0",
+			"pathDescription": "小额",
+			"routeDescription": "小额实时",
+			"CHARGECOST": "0",
+			"pathId": "BEPS",
+			"sortType": "",
+			"CHARGE": "0",
+			"routeId": "BEPS_RT",
+			"routeTrialId": "RT20170609003880064"
+		},
+		{
+			"TIME": "0",
+			"pathDescription": "大额",
+			"routeDescription": "大额",
+			"CHARGECOST": "0",
+			"pathId": "HVPS",
+			"sortType": "",
+			"CHARGE": "0",
+			"routeId": "HVPS_RT",
+			"routeTrialId": "RT20170609003880065"
+		}]
+	},
+	"header": {
+		"transGlobalFlow": "NMB01201706091756582466",
+		"serverTime": "175708000",
+		"errorCode": "0",
+		"errorMsg": "success",
+		"transFlow": "NMB01201706091756582466INS348324",
+		"serverDate": "20170609"
+	}
+}
