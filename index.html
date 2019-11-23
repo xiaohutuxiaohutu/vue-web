@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://localhost:8098"></script>
+    <META Content="Microsoft Visual Studio 6.0" NAME="GENERATOR">
+    <META HTTP-EQUIV="Content-Type" content="text/html; charset=UTF-8">
+    <script src="/static/compatibility/compatibility.js"></script>
+    <title>小糊涂</title>
+
+</head>
+
+<body>
+<div id="app"></div>
+<form name="inputForm">
+    <input id="signData" name="signData" type="hidden" value=""/>
+    <input id="uKeySn" name="uKeySn" type="hidden" value=""/>
+</form>
+<script ID=clientEventHandlersJS language="javascript" type="text/javascript">
+
+    window.onload = function () {
+        var FTCtrlStr = "";
+        var CryptoAgentStr = "";
+        var explorerType = getExplorerType();
+        if (explorerType == 1) { //win32
+            CryptoAgentStr = '<OBJECT id="InfoSecNetSign1"  style="height: 0px; width: 0px" data="data:application/x-oleobject;base64,xDi5s5BBN0+M8KkrCpHMdwADAACyHgAA/wIAAA=="  codebase="/corpbank/static/ocx/netsign/NetSign20.cab#version=2.0.59.9" classid="clsid:B3B938C4-4190-4F37-8CF0-A92B0A91CC77"  VIEWASTEXT></OBJECT>';
+        } else if (explorerType == 2) { //win64
+            CryptoAgentStr = '<OBJECT id="InfoSecNetSign1"  style="height: 0px; width: 0px" codebase="/corpbank/static/ocx/netsign/NetSign20_64.cab#version=2.0.59.9" classid="clsid:AA6BA3FC-3428-4443-B7AB-D2A85AF20250" VIEWASTEXT></OBJECT>';
+        } else {
+            CryptoAgentStr = '<embed id="InfoSecNetSign1" type="application/infosec-netsign-plugin" style="height: 0px; width: 0px" ><br>';
+        }
+        var html = CryptoAgentStr;
+        var div = document.createElement('div');
+        div.innerHTML = html;
+        document.body.appendChild(div);
+    }
+
+    function getExplorerType() {
+        //苹果浏览器
+        if (-1 != navigator.userAgent.indexOf("Mac", 0)) {
+            return 3; //mac
+        }
+        if (navigator.appVersion.indexOf("Edge") >= 0) {
+            return 4; //edge
+        }
+        if (navigator.appName.indexOf("Internet") >= 0 || navigator.appVersion.indexOf("Trident") >= 0) {
+            if (window.navigator.cpuClass == "x86") {
+                //IE32位
+                return 1; //win32
+            } else {
+                //IE64位
+                return 2; //win64
+            }
+        } else {
+            //其他
+            return 99;
+        }
+    }
+
+
+    try {
+        var FTBSCtrl = getFTBSCtrl();
+
+    } catch (e) {
+        // TODO: handle exception
+    }
+
+    /**
+     * 获取飞天控件
+     */
+    function getFTBSCtrl() {
+        return new ActiveXObject("FTINITLIZE.FTKeyCtrl.2");
+    }
+
+    /**
+     * 获取签名控件
+     */
+    function getControl() {
+        return new ActiveXObject("CryptoKit.CryptoAgent.1");
+    }
+
+    /**
+     * 签名方法入口
+     */
+    function checkSecurity(formId, message, certNo, ukeyNo) {
+        var isEnabled = true;
+        var localcertNo = certNo;
+        var localukeyNo = ukeyNo;
+        if (!certSignData(formId, message, localcertNo, localukeyNo)) {
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * 数组签名
+     */
+    function checkArrSecurity(arrShow, arrSign) {
+        var signData = formatXMLData(arrShow, arrSign);
+        if (!checkSecurity("signData", signData, null, null)) {
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * 证书签名
+     *
+     * @param fieldId       存放签名数据字段ID
+     * @param sourceValue   签名源数据
+     * @param signData      签名后数据保存域
+     * @returns {Boolean}
+     */
+    function certSignData(fieldId, sourceValue, certNo, ukeyNo) {
+        try {
+            var explorerType = getExplorerType();
+            if (explorerType == 1 || explorerType == 2) { //win
+                var listNum = checkUsbKey();
+                if (listNum == 0) {
+                    alert("请插入KEY盾");
+                    return false;
+                }
+            }
+// 		if( listNum>1 ){
+// 			alert("检测到您插入"+listNum+"个USBKey，请只插入一个USBKey"); 
+// 			return false;
+// 		}else if( listNum==0 ){
+// 			alert("请插入USBKey"); 
+// 			return false;
+// 		}else if( listNum==1 ){
+
+
+            //var tempStr= FTBSCtrl.GetUsbkeySN();
+            //if(tempStr == ukeyNo){
+            //var CryptoAgent = getControl();
+// 				var certFlag = CryptoAgent.SelectCertificate("", "", "");
+//                 if (!certFlag) 
+//                 {
+//                     var errorDesc = CryptoAgent.GetLastErrorDesc();
+//                     alert(errorDesc);
+//                     return;
+//                 }
+            var bstrHashAlg = "SHA-256";
+            var signature = xinanshijiSign(sourceValue);
+            //var signature = CryptoAgent.SignMsgPKCS7(sourceValue, bstrHashAlg, true);//false为不带原文进行签名
+            if (!signature) {
+//                         var errorDesc = CryptoAgent.GetLastErrorDesc();
+//                         if(errorDesc != null || errorDesc != ""){
+//                         	//alert(errorDesc);
+//                         }
+                return;
+            }
+            document.getElementById(fieldId).value = signature;
+            console.log("签名数据--" + signature);
+            if (signature == "") {
+                alert("签名失败");
+                return false;
+            }
+            return true;
+            //}else{
+            //	alert("请插入正确的USBKey");
+            //	return false;
+            //}
+// 		}
+        } catch (e) {
+            if (!isEmpty(e.message)) {
+                alert(e.message);
+            }
+        }
+        return false;
+    }
+
+    function xinanshijiSign(sourceData) {
+        //InfoSecNetSign1.NSAdvanceAttachedSign;
+        InfoSecNetSign1.NSSetCodePage(65001);//设置UTF-8编码，二代KEY正常显示，否则乱码
+        InfoSecNetSign1.NSSetDigestArithmetic("2.16.840.1.101.3.4.2.1");//设置SHA256签名
+        InfoSecNetSign1.NSSetPlainText(sourceData);
+        if (InfoSecNetSign1.errorNum != 0) {
+            alert("返回值〔" + InfoSecNetSign1.errorNum + "〕\n" + InfoSecNetSign1.errMsg);
+            return;
+        }
+
+        //InfoSecNetSign1.NSSetDigestArithmetic("1.2.840.113549.2.2");
+// 		if((FORM29.checkbox1.checked==true)&&defaultSignerDN)
+// 		{
+// 			FORM29.TEXTAREAAttachedSignOUT.value=InfoSecNetSign1.NSAdvanceAttachedSign(defaultSignerDN);
+        //alert(InfoSecNetSign1.NSAttachedSign(defaultSignerDN));
+// 		}
+// 		else
+// 		{
+// 			FORM29.TEXTAREAAttachedSignOUT.value=InfoSecNetSign1.NSAdvanceAttachedSign("");
+// 		}
+// 		if(InfoSecNetSign1.errorNum!=0)
+// 		{
+// 			alert("返回值〔"+InfoSecNetSign1.errorNum+"〕\n"+InfoSecNetSign1.errMsg+"\n底层返回值("+InfoSecNetSign1.errorCode+")");
+// 			return ;
+// 		}
+
+        return InfoSecNetSign1.NSAdvanceAttachedSign("");
+    }
+
+    //获取UKEYSN
+    function getUKeySn() {
+        var tempStr = "";
+        try {
+            tempStr = FTBSCtrl.GetUsbkeySN();
+        } catch (e) {
+        }
+        var uKeySn = tempStr
+        return uKeySn;
+    }
+
+    /**
+     * 登录
+     * 检测UK
+     */
+    function checkUK() {
+        var listNum = 0;
+        try {
+            if (FTBSCtrl == null) {
+                FTBSCtrl = getFTBSCtrl();
+            }
+            listNum = FTBSCtrl.getUKey();
+            if (1 == listNum) {
+                return listNum;
+            } else if (1007 == listNum) {
+                alert("请插入一把或者多把同类型的U盾！");
+                return false;
+            } else if (1001 == listNum) {
+                alert("加载p11库失败，请检查驱动是否完整！");
+                return false;
+            } else {
+                return false;
+            }
+        } catch (e) {
+            /* alert("检测到您未安装本行U盾驱动,请使用网银助手进行一键修复。"+e.message); */
+        }
+        return listNum;
+    }
+
+    /**
+     * 获取已插入USB信息
+     */
+    function checkUsbKey() {
+        var listNum = 0;
+        try {
+            if (FTBSCtrl == null) {
+                FTBSCtrl = getFTBSCtrl();
+            }
+            listNum = FTBSCtrl.getUKey();
+            if (1 == listNum) {
+                return listNum;
+            } else if (1007 == listNum) {
+                alert("请插入一把或者多把同类型的U盾！");
+                return false;
+            } else if (1001 == listNum) {
+                alert("加载p11库失败，请检查驱动是否完整！");
+                return false;
+            } else {
+                alert("没有检测到U盾！");
+                return listNum;
+            }
+        } catch (e) {
+            alert("检测到您未安装本行U盾驱动,请使用网银助手进行一键修复。" + e.message);
+        }
+        return listNum;
+    }
+
+    /**
+     *签名测试
+     */
+    function getSignData(arrAcc, arrAmt, siDate, certNo, ukeyNo) {
+        /**
+         *展示信息
+         */
+        var arrShow = new Array(arrAcc, arrAmt);
+        /**
+         *签名信息
+         */
+        //var arrSign = new Array(["acc","555****5555"], ['amt',3.02],["rr","555****5555"], ['tt',3.02]);
+        siDate = JSON.parse(siDate);
+        var arrSign = new Array();
+        for (var i = 0; i < siDate.length; i++) {
+            arrSign[i] = new Array();
+            arrSign[i][0] = siDate[i].key;
+            arrSign[i][1] = siDate[i].value;
+        }
+        /**
+         *将签名信息转换
+         */
+        var signData = formatXMLData(arrShow, arrSign);
+        //alert(signData);
+        /**
+         *调用签名方法
+         */
+        if (!checkSecurity("signData", signData, certNo, ukeyNo)) {
+            //submitBtn.disabled = false;
+            return false;
+        }
+    }
+
+    /**
+     * 将签名数据格式化为XML格式
+     * @param arrShow   液晶屏显示数据
+     * @param arrSign   签名但不显示数据
+     * @returns {String}
+     */
+    function formatXMLData(arrShow, arrSign) {
+        try {
+            var str = '<T>' + '<D>';
+            for (var i = 0; i < arrShow.length; i++) {
+                str = str + '<M>';
+                for (var j = 0; j < arrShow[i].length; j++) {
+                    if (j % 2 == 1) {
+                        str = str + '<v>' + arrShow[i][j] + '</v>';
+                    } else {
+                        str = str + '<k>' + arrShow[i][j] + '</k>';
+                    }
+                }
+                str = str + '</M>';
+            }
+
+            str = str + '</D>' + '<E>';
+
+            for (var i = 0; i < arrSign.length; i++) {
+                str = str + '<M>';
+                for (var j = 0; j < arrSign[i].length; j++) {
+                    if (j % 2 == 1) {
+                        str = str + '<v>' + arrSign[i][j] + '</v>';
+                    } else {
+                        str = str + '<k>' + arrSign[i][j] + '</k>';
+                    }
+                }
+                str = str + '</M>';
+            }
+            str = str + '</E>' + '</T>';
+            return str;
+        } catch (e) {
+
+        }
+    }
+
+    /**
+     * 检验字符串是否为空
+     * @param {String} 字符串
+     * @return {bool} 是否为空
+     */
+    function isEmpty(input) {
+        if (input == null || trim(input).length == 0 || input == 'null')
+            return true;
+        else
+            return false;
+    }
+
+    /**
+     * 去掉字符串前后的空格
+     * @param {String} 字符串
+     * @return {String} 去除空格后的字符串
+     */
+    function trim(input) {
+        return input.replace(/(^\s*)|(\s*$)/g, "");
+    }
+</script>
+
+
+</body>
+</html>
+
